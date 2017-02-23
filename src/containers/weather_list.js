@@ -47,5 +47,10 @@ class WeatherList extends Component {
 function mapStateToProps({weather}){
     return { weather };
 }
-
+// function mapStateToProps({weather}){
+//     return { weather:weather };
+// }
+// function mapStateToProps(state){
+//     return { weather : state.weather };
+// }
 export default connect(mapStateToProps)(WeatherList);
